@@ -8,3 +8,4 @@ services:
   alpine:
     image: alpine:3.7.3
     container_name: compose_test_alpine
+    command: tail -f /dev/null
